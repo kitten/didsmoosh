@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import { rem } from "polished";
+import styled from 'styled-components';
+import { rem } from 'polished';
 
-import ButtonBackground from "./button-background";
+import ButtonBackground from './button-background';
 
 const Wrapper = styled.a`
   cursor: pointer;
@@ -35,9 +35,9 @@ const Text = styled.span`
 `;
 
 const Background = styled(ButtonBackground).attrs({
-  width: "100%",
-  height: "100%",
-  preserveAspectRatio: "none"
+  width: '100%',
+  height: '100%',
+  preserveAspectRatio: 'none'
 })`
   position: absolute;
   left: 0;

@@ -1,9 +1,9 @@
-import styled from "styled-components";
-import { rem } from "polished";
+import styled from 'styled-components';
+import { rem } from 'polished';
 
-import Hero from "../components/Hero";
-import Button from "../components/Button";
-import Decoration from "../components/decoration";
+import Hero from '../components/Hero';
+import Button from '../components/Button';
+import Decoration from '../components/decoration';
 
 const Wrapper = styled.div`
   min-height: 100vh;
@@ -41,7 +41,7 @@ const Section = styled.div`
 
   background-repeat: no-repeat;
   background-position: 50% 0%;
-  background-image: url("/static/decoration.png");
+  background-image: url('/static/decoration.png');
   background-size: ${rem(100)} ${rem(400)};
 
   color: #0e1e25;
@@ -65,8 +65,8 @@ const SectionContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: ${p => (p.center ? "center" : "flex-end")};
-  text-align: ${p => (p.center ? "center" : "right")};
+  align-items: ${p => (p.center ? 'center' : 'flex-end')};
+  text-align: ${p => (p.center ? 'center' : 'right')};
   margin: ${rem(30)} 0;
 `;
 
@@ -151,7 +151,7 @@ export default () => (
         <SectionContent>
           <BoldBody>Beats by Ken.</BoldBody>
           <Body>
-            —<Link href="https://twitter.com/ken_wheeler">Ken Wheeler</Link>{" "}
+            —<Link href="https://twitter.com/ken_wheeler">Ken Wheeler</Link>{' '}
             (remote)
           </Body>
         </SectionContent>
