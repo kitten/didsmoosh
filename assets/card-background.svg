@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="565px" height="470px" viewBox="0 0 565 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Card Background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.46342124%" y1="2.46342124%" x2="97.0532889%" y2="97.0532889%" id="linearGradient-1">
+            <stop stop-color="#A601FD" offset="0%"></stop>
+            <stop stop-color="#BA94DE" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="117.548282%" cy="17.4285081%" fx="117.548282%" fy="17.4285081%" r="90.4337442%" gradientTransform="translate(1.175483,0.174285),scale(0.831858,1.000000),rotate(81.427572),scale(1.000000,0.858943),translate(-1.175483,-0.174285)" id="radialGradient-2">
+            <stop stop-color="#FEF9D1" offset="0%"></stop>
+            <stop stop-color="#FEF9D1" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="-10.2041474%" cy="108.383779%" fx="-10.2041474%" fy="108.383779%" r="118.121772%" gradientTransform="translate(-0.102041,1.083838),scale(0.831858,1.000000),rotate(-92.537895),scale(1.000000,0.982636),translate(0.102041,-1.083838)" id="radialGradient-3">
+            <stop stop-color="#D51261" offset="0%"></stop>
+            <stop stop-color="#FEF9D1" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-230.000000, -135.000000)">
+            <g id="Hero">
+                <g id="Card" transform="translate(230.000000, 135.000000)">
+                    <g id="Card-Background">
+                        <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="565" height="470"></rect>
+                        <rect id="Rectangle" fill="url(#radialGradient-2)" x="0" y="0" width="565" height="470"></rect>
+                        <rect id="Rectangle" fill="url(#radialGradient-3)" x="0" y="0" width="565" height="470"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
