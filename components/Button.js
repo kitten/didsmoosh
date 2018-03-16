@@ -3,7 +3,10 @@ import { rem } from 'polished';
 
 import ButtonBackground from './button-background';
 
-const Wrapper = styled.a`
+const Wrapper = styled.a.attrs({
+  target: '_blank',
+  rel: 'noopener'
+})`
   cursor: pointer;
   position: relative;
   width: ${rem(240)};

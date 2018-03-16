@@ -38,6 +38,7 @@ export default class MyDocument extends Document {
         <Head>
           <meta charset="UTF-8" />
           <title>componentDidSmoosh()</title>
+          <meta name="description" content="componentDidSmoosh is a JavaScript comedy night like never seen before, bringing London’s greatest experts of developer humour on stage" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="stylesheet" href="https://use.typekit.net/sis5bcz.css" />
 

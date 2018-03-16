@@ -82,10 +82,15 @@ const BoldBody = styled(Body)`
   font-weight: 800;
 `;
 
-const Link = styled.a`
+const Link = styled.a.attrs({
+  target: '_blank',
+  rel: 'noopener'
+})`
+  cursor: pointer;
   text-decoration: none;
-  color: black;
-  :hover {
+  color: inherit;
+
+  &:hover {
     text-decoration: underline;
   }
 `;
