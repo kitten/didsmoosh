@@ -15,6 +15,7 @@ const Content = styled.div`
   align-items: center;
   justify-content: flex-start;
 
+  color: #0e1e25;
   padding: ${rem(60)} ${rem(20)};
   max-width: ${rem(620)};
   margin: 0 auto;
@@ -30,6 +31,7 @@ const Description = styled.p`
   font-weight: 600;
   padding: ${rem(40)} 0;
   text-align: center;
+  color: #0e1e25;
 `;
 
 const Section = styled.div`
