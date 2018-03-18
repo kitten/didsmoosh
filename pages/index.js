@@ -79,6 +79,25 @@ const Body = styled.h3`
   letter-spacing: ${rem(0.88)};
 `;
 
+const Nan = Body.extend`
+  &:before {
+    position: absolute;
+    width: 100%;
+    background: rgba(14,28,37, .7);
+    color: white;
+    content: 'BATMAN 😎';
+    opacity: 0;
+    transition: opacity 200ms ease-in;
+  }
+
+  &:hover {
+    &:before {
+      opacity: 1;
+    }
+  }
+
+`
+
 const BoldBody = styled(Body)`
   text-transform: uppercase;
   font-weight: 800;
@@ -120,6 +139,7 @@ export default () => (
             London N1 9HF<br />
             6:00 PM – 10:00 PM
           </Body>
+          <Nan>In NaNd NaNh NaNm NaNs</Nan>
         </SectionContent>
       </Section>
 
