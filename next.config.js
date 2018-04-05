@@ -9,6 +9,7 @@ module.exports = {
   },
   exportPathMap: () => ({
     '/': { page: '/' },
-    '/donate': { page: '/donate' }
+    '/donate': { page: '/donate' },
+    '/kiosk': { page: '/kiosk' }
   })
 }
