@@ -51,11 +51,15 @@ class RequestButton extends Component {
   }
 
   componentWillReceiveProps({ amount, stripe }) {
+    if (!this.state.paymentRequest && stripe) {
+      this.createRequest(stripe, amount);
+    }
+
     if (amount !== this.props.amount && this.state.paymentRequest) {
       this.state.paymentRequest.update({
         total: {
           label: 'Donate Smoosh',
-          amount: amount * 100
+          amount: amount ? amount * 100 : 100
         }
       })
     }

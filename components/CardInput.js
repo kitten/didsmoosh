@@ -10,10 +10,10 @@ const Container = styled.form``
 const Label = styled.span`
   display: block;
   color: rgb(65, 65, 70);
-  font-size: ${rem(14)};
+  font-size: 12px;
   text-align: left;
   text-transform: uppercase;
-  margin-bottom: ${rem(17)};
+  margin-bottom: 17px;
 `
 
 const Wrapper = styled.div`
@@ -22,12 +22,12 @@ const Wrapper = styled.div`
   width: 100%;
 
   box-shadow:
-    rgba(50, 50, 93, 0.14902) 0 ${rem(1)} ${rem(3)},
-    rgba(0, 0, 0, 0.0196078) 0 ${rem(1)} 0;
+    rgba(50, 50, 93, 0.14902) 0 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0 1px 0;
 
-  margin: ${rem(10)} 0 ${rem(20)} 0;
-  padding: ${rem(12)} ${rem(16)};
-  border-radius: ${rem(4)};
+  margin: 10px 0 20px 0;
+  padding: 12px 16px;
+  border-radius: 4px;
   background: #fff;
   border: 1px solid #d1d3d4;
 `

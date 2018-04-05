@@ -7,20 +7,20 @@ const PayButton = styled.button`
   width: 100%;
 
   box-shadow:
-    rgba(50, 50, 93, 0.14902) 0 ${rem(1)} ${rem(3)},
-    rgba(0, 0, 0, 0.0196078) 0 ${rem(1)} 0;
+    rgba(50, 50, 93, 0.14902) 0 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0 1px 0;
 
-  margin: ${rem(10)} 0 ${rem(20)} 0;
-  padding: ${rem(12)} ${rem(16)};
-  border-radius: ${rem(4)};
+  margin: 10px 0 20px 0;
+  padding: 12px 16px;
+  border-radius: 4px;
   background: #d34a99;
   border: 1px solid #d1d3d4;
   outline: none;
   appearance: none;
 
   color: #fff;
-  font-size: ${rem(20)};
-  letter-spacing: ${rem(3)};
+  font-size: 20px;
+  letter-spacing: 3px;
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
@@ -30,8 +30,8 @@ const PayButton = styled.button`
     background: #d43c88;
     transform: translateY(-1px);
     box-shadow:
-      0 ${rem(7)} ${rem(14)} rgba(50, 50, 93, .10),
-      0 ${rem(3)} ${rem(6)} rgba(0, 0, 0, .08);
+      0 7px 14px rgba(50, 50, 93, .10),
+      0 3px 6px rgba(0, 0, 0, .08);
   }
 
   &:disabled {

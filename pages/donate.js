@@ -43,18 +43,18 @@ const Tagline = styled.h3`
 const Heading = styled.h3`
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: ${rem(2)};
-  font-size: ${rem(24)};
+  letter-spacing: 2px;
+  font-size: 24px;
 `
 
 const Description = styled.p`
-  font-size: ${rem(18)};
-  line-height: ${rem(28)};
+  font-size: 18px;
+  line-height: 28px;
   font-weight: 600;
   text-align: center;
   color: #0e1e25;
-  padding: ${rem(12)} 0;
-  margin-bottom: ${rem(32)};
+  padding: 12px 0;
+  margin-bottom: 32px;
 `;
 
 class Donate extends Component {
