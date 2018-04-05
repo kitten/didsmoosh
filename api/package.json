@@ -1,0 +1,16 @@
+{
+  "name": "smoosh-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "now-env": "^3.0.4",
+    "stripe": "^5.8.0"
+  }
+}

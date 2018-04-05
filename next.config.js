@@ -8,6 +8,7 @@ module.exports = {
     return config
   },
   exportPathMap: () => ({
-    '/': { page: '/' }
+    '/': { page: '/' },
+    '/donate': { page: '/donate' }
   })
 }
