@@ -2,7 +2,7 @@
   "name": "didsmoosh",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build && next export && cp -R ./static/.well-known ./out/",
     "start": "next start"
   },
   "dependencies": {

@@ -68,7 +68,7 @@ class Donate extends Component {
 
   componentDidMount() {
     this.setState({
-      stripe: window.Stripe(process.env.STRIPE_KEY)
+      stripe: window.Stripe('pk_live_b75NLmsiCGT6UZ5Q7hnZj3Gn')
     })
   }
 
