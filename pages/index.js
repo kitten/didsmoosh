@@ -100,7 +100,10 @@ const ArrowIcon = styled(Arrow)`
   height: ${rem(21)};
 `
 
-const PageLink = styled.a`
+const PageLink = styled.a.attrs({
+  target: p => !p.external ? undefined : '_blank',
+  rel: p => !p.external ? undefined : 'noopener'
+})`
   display: block;
   margin-bottom: ${rem(9)};
   cursor: pointer;
@@ -130,7 +133,7 @@ const Link = styled.a.attrs({
 
 export default () => (
   <Wrapper>
-    <Hero />
+    <Hero tagline="Thanks for coming" />
     <Content>
       <Description>
         <B>componentDidSmoosh</B> is a JavaScript comedy night like never seen
@@ -138,8 +141,8 @@ export default () => (
         to make you laugh and cry.
       </Description>
 
-      <Button href="https://www.meetup.com/formidable-london/events/248799751/">
-        Join the fun
+      <Button internal href="/donate">
+        Donate
       </Button>
 
       <LinkBody>
@@ -147,8 +150,8 @@ export default () => (
           Code of Conduct
           <ArrowIcon />
         </PageLink>
-        <PageLink href="/donate">
-          Donate
+        <PageLink external href="https://www.meetup.com/formidable-london/events/248799751/">
+          Meetup
           <ArrowIcon />
         </PageLink>
       </LinkBody>
@@ -206,8 +209,8 @@ export default () => (
         </SectionContent>
       </Section>
 
-      <Button href="https://www.meetup.com/formidable-london/events/248799751/">
-        Sign the heck up
+      <Button internal href="/donate">
+        Donate
       </Button>
     </Content>
   </Wrapper>

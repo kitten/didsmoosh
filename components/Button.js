@@ -4,8 +4,8 @@ import { rem } from 'polished';
 import ButtonBackground from './button-background';
 
 const Wrapper = styled.a.attrs({
-  target: '_blank',
-  rel: 'noopener'
+  target: p => p.internal ? undefined : '_blank',
+  rel: p => p.internal ? undefined : 'noopener'
 })`
   cursor: pointer;
   position: relative;
@@ -53,8 +53,8 @@ const Background = styled(ButtonBackground).attrs({
   z-index: 1;
 `;
 
-const Button = ({ href, children }) => (
-  <Wrapper href={href}>
+const Button = ({ internal, href, children }) => (
+  <Wrapper internal={internal} href={href}>
     <Background />
     <Text>{children}</Text>
   </Wrapper>
