@@ -128,7 +128,9 @@ class Donate extends Component {
         <HeroBackground fullscreen>
           <Head>
             <script src="https://js.stripe.com/v3/" />
-            <title>Donate to Smoosh</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+            <meta property="og:title" content= "Donate to componentDidSmoosh" />
+            <title>Donate to componentDidSmoosh</title>
           </Head>
 
           <Tagline>

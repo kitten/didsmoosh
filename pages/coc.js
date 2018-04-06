@@ -1,5 +1,6 @@
-import styled from 'styled-components';
-import { rem } from 'polished';
+import styled from 'styled-components'
+import { rem } from 'polished'
+import Head from 'next/head'
 
 const Wrapper = styled.div`
   min-height: 100vh;
@@ -85,6 +86,12 @@ const BodyLinks = styled(Body)`
 
 export default () => (
   <Wrapper>
+    <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <meta property="og:title" content= "Code of Conduct — componentDidSmoosh" />
+      <title>Code of Conduct — componentDidSmoosh</title>
+    </Head>
+
     <Content>
       <Section>
         <SectionHeading>Code of Conduct</SectionHeading>

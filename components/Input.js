@@ -84,6 +84,7 @@ const Val = styled.input.attrs({
   color: #0e1e25;
   font-size: 14px;
 
+  padding-right: 85px;
   padding-top: 12px;
 `
 
