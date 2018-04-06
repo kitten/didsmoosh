@@ -41,12 +41,13 @@ class Hero extends Component {
   }
 
   render() {
+    const { tagline } = this.props
     const { x, y } = this.state
 
     return (
       <HeroBackground innerRef={this.onRef}>
         <Tagline>
-          No one should see this
+          {tagline || 'No one should see this'}
         </Tagline>
         <Card x={x} y={y} />
       </HeroBackground>
