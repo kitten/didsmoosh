@@ -37,10 +37,11 @@ const Section = styled.div`
 `
 
 const SectionHeading = styled.h2`
-  font-size: 76px;
+  font-size: ${rem(72)};
+  font-size: ${rem(76)};
   font-weight: 800;
-  letter-spacing: 11px;
-  margin: 22px 0;
+  letter-spacing: ${rem(11)};
+  margin: ${rem(22)} 0;
   text-align: center;
   text-transform: uppercase;
 `
