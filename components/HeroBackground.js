@@ -46,9 +46,9 @@ const Content = styled.div`
   }
 `
 
-const HeroBackground = ({ children, innerRef, fullscreen = false }) => (
+const HeroBackground = ({ children, renderBackground, innerRef, fullscreen = false }) => (
   <Wrapper innerRef={innerRef} fullscreen={fullscreen}>
-    <Background />
+    {renderBackground ? renderBackground() : <Background />}
     <Content>
       {children}
     </Content>

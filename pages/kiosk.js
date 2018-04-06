@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { rem } from 'polished'
 
 import HeroBackground from '../components/HeroBackground'
+import GlitchBackground from '../components/GlitchBackground'
 import Card from '../components/Hero/Card'
 
 const Tagline = styled.h3`
@@ -42,6 +43,8 @@ class Hero extends Component {
     }, 1000 / 60)
   }
 
+  renderBackground = () => <GlitchBackground />
+
   componentDidMount() {
     this.base = new Date().valueOf()
     this.mounted = true
@@ -57,7 +60,7 @@ class Hero extends Component {
     const { x, y } = this.state
 
     return (
-      <HeroBackground fullscreen innerRef={this.onRef}>
+      <HeroBackground fullscreen innerRef={this.onRef} renderBackground={this.renderBackground}>
         <Zoom>
           <Tagline>
             smoosh.fun/donate
