@@ -4,6 +4,7 @@ import { rem } from 'polished';
 import Hero from '../components/Hero';
 import Button from '../components/Button';
 import Decoration from '../components/decoration';
+import Arrow from '../components/arrow';
 
 const Wrapper = styled.div`
   min-height: 100vh;
@@ -84,6 +85,36 @@ const BoldBody = styled(Body)`
   font-weight: 800;
 `;
 
+const LinkBody = styled.div`
+  margin-bottom: ${rem(40)};
+`
+
+const ArrowIcon = styled(Arrow)`
+  position: relative;
+  top: ${rem(3)};
+
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: ${rem(12)};
+  width: ${rem(14)};
+  height: ${rem(21)};
+`
+
+const PageLink = styled.a`
+  display: block;
+  margin-bottom: ${rem(9)};
+  cursor: pointer;
+  text-decoration: none;
+  color: #aa266f;
+  font-size: ${rem(24)};
+  font-weight: 600;
+  text-align: center;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
 const Link = styled.a.attrs({
   target: '_blank',
   rel: 'noopener'
@@ -95,7 +126,7 @@ const Link = styled.a.attrs({
   &:hover {
     text-decoration: underline;
   }
-`;
+`
 
 export default () => (
   <Wrapper>
@@ -110,6 +141,17 @@ export default () => (
       <Button href="https://www.meetup.com/formidable-london/events/248799751/">
         Join the fun
       </Button>
+
+      <LinkBody>
+        <PageLink href="/coc">
+          Code of Conduct
+          <ArrowIcon />
+        </PageLink>
+        <PageLink href="/donate">
+          Donate
+          <ArrowIcon />
+        </PageLink>
+      </LinkBody>
 
       <Section>
         <SectionHeading>Location</SectionHeading>
