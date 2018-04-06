@@ -55,7 +55,7 @@ class CardInput extends Component {
     return (
       <Container onSubmit={this.checkout}>
         <Wrapper>
-          <Label>Pay by Card</Label>
+          <Label>Donate by Card</Label>
           <CardElement />
         </Wrapper>
 

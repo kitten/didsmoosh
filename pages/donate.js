@@ -63,7 +63,7 @@ class Donate extends Component {
     hasError: false,
     hasSucceeded: false,
     stripe: null,
-    amount: 6
+    amount: 15
   }
 
   componentDidMount() {
@@ -72,12 +72,8 @@ class Donate extends Component {
     })
   }
 
-  onChangeAmount = ({ target: { value } }) => {
+  onChangeAmount = value => {
     const x = typeof value === 'string' ? parseFloat(value) : value
-    if (!x) {
-      return this.setState({ amount: undefined })
-    }
-
     const amount = Math.max(1, Math.min(1000, Math.floor(x)))
     this.setState({ amount })
   };
@@ -178,9 +174,6 @@ class Donate extends Component {
                 label="Amount (GBP)"
                 type="number"
                 value={this.state.amount}
-                min={1}
-                max={1000}
-                step={1}
                 onChange={this.onChangeAmount}
               />
 
