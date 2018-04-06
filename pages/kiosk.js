@@ -32,8 +32,8 @@ class Hero extends Component {
         const now = new Date().valueOf()
         const delta = now - this.base
 
-        const x = Math.sin(2 * Math.PI * (delta % rhythmx) / rhythmx) * 0.5
-        const y = Math.cos(2 * Math.PI * (delta % rhythmy) / rhythmy) * 0.5
+        const x = Math.sin(2 * Math.PI * (delta % rhythmx) / rhythmx) * 0.8
+        const y = Math.cos(2 * Math.PI * (delta % rhythmy) / rhythmy) * 0.8
 
         if (this.mounted) {
           this.setState({ x, y }, this.step)
