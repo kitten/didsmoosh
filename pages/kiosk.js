@@ -5,6 +5,7 @@ import { rem } from 'polished'
 import HeroBackground from '../components/HeroBackground'
 import GlitchBackground from '../components/GlitchBackground'
 import Card from '../components/Hero/Card'
+import { requestFullscreen } from '../components/fullscreen'
 
 const Tagline = styled.h3`
   text-align: center;
@@ -43,6 +44,12 @@ class Hero extends Component {
     }, 1000 / 60)
   }
 
+  onRef = ref => {
+    this.ref = ref
+  }
+
+  fullscreen = () => requestFullscreen(this.ref)
+
   renderBackground = () => <GlitchBackground />
 
   componentDidMount() {
@@ -62,7 +69,7 @@ class Hero extends Component {
     return (
       <HeroBackground fullscreen innerRef={this.onRef} renderBackground={this.renderBackground}>
         <Zoom>
-          <Tagline>
+          <Tagline onClick={this.fullscreen}>
             smoosh.fun/donate
           </Tagline>
           <Card x={x} y={y} />
