@@ -146,9 +146,9 @@ export default () => (
             of the event and may be contacted throughout the duration of the event and afterwards via Twitter DMs:
           </Body>
           <BodyLinks>
-            <Link href="https://twitter.com/jevakallio">Jani Evakallio</Link><br />
-            <Link href="https://twitter.com/oliverturner">Oliver Turner</Link><br />
-            <Link href="https://twitter.com/_philpl">Phil Pluckthun</Link>
+            <Link href="https://twitter.com/jevakallio">Jäni Evakalliö</Link><br />
+            <Link href="https://twitter.com/oliverturner">Öliver Türner</Link><br />
+            <Link href="https://twitter.com/_philpl">Phïl Pluckthün</Link>
           </BodyLinks>
           <Body>
             We expect participants to follow these rules during and after the event(s), at the event venue(s), at event-related
