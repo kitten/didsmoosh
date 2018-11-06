@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "linaria/babel",
+    [
+      "babel-preset-gatsby",
+      {
+        "targets": {
+          "esmodules": true
+        }
+      }
+    ]
+  ],
+  "plugins": ["babel-plugin-polished"]
+}
