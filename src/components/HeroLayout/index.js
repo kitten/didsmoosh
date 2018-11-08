@@ -28,7 +28,8 @@ const Row = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
-    margin: 0;
+    margin-left: 0;
+    margin-top: 19rem;
     padding: 0;
   }
 `;

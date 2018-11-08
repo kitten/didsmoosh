@@ -19,11 +19,15 @@ const Wrapper = styled.div`
   color: #fff;
   font-size: 2rem;
 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  height: 18rem;
+  width: 100%;
+
   @media (min-width: 768px) {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    top: 0;
+    height: auto;
     width: 45vw;
     font-size: calc(40vw / 9);
   }
