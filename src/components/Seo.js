@@ -16,8 +16,18 @@ const files = [
 
 const query = graphql`
   query {
-    file(relativePath: { eq: "favicon.png" }) {
+    banner: file(relativePath: { eq: "banner.jpg" }) {
       childImageSharp {
+        fixed(width: 1120) {
+          src
+        }
+      }
+    }
+    favicon: file(relativePath: { eq: "favicon.png" }) {
+      childImageSharp {
+        banner: fixed(width: 57, height: 57) {
+          src
+        }
         icon57: fixed(width: 57, height: 57) {
           src
         }
@@ -89,7 +99,7 @@ const Seo = ({ title }) => (
 
         <meta
           property="og:image"
-          content={require('../images/favicons/banner.jpg')}
+          content={data.banner.childImageSharp.fixed.src}
         />
 
         {files.map(({ name, size }) => (
@@ -97,7 +107,7 @@ const Seo = ({ title }) => (
             rel="apple-touch-icon"
             key={name}
             sizes={size}
-            href={data.file.childImageSharp[name].src}
+            href={data.favicon.childImageSharp[name].src}
           />
         ))}
       </Helmet>
