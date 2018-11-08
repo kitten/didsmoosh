@@ -60,6 +60,8 @@ const Seo = ({ title }) => (
     query={query}
     render={data => (
       <Helmet>
+        <html lang="en" />
+
         <title>
           {title ? `${title} — ` : ''}
           {'componentDidSmoosh'}
