@@ -68,9 +68,21 @@ const CocPage = () => (
       </p>
 
       <ul>
-        <li>Jani Eväkallio</li>
-        <li>Taz Singh</li>
-        <li>Phil Plückthun</li>
+        <li>
+          @jevakallio
+          <br />
+          —Jani Eväkallio
+        </li>
+        <li>
+          @tazsingh
+          <br />
+          —Taz Singh
+        </li>
+        <li>
+          @_philpl
+          <br />
+          —Phil Plückthun
+        </li>
       </ul>
 
       <p>

@@ -25,6 +25,7 @@ const Wrapper = styled.div`
   }
 
   b,
+  h4,
   strong {
     font-weight: 800;
     text-transform: uppercase;
