@@ -23,9 +23,9 @@ const IndexPage = () => (
 
       <ul>
         <li>
-          <b>An improvised comedy about the tragedy of programming.</b>
+          <b>Life coaching for programmers. Live.</b>
           <br />
-          —TC Thirty-NaN.
+          —Michele Guido.
         </li>
 
         <li>
@@ -35,14 +35,24 @@ const IndexPage = () => (
         </li>
 
         <li>
+          <b>An improvised comedy about the tragedy of programming.</b>
+          <br />
+          —TC Thirty-NaN.
+        </li>
+
+        <li>
           <b>The amazing live coding man.</b>
           <br />
           —Tomasz Łakomy
         </li>
 
-        <li>—Taz Singh.</li>
-        <li>—Sara Vieira.</li>
-        <li>—Michelle Guido.</li>
+        <li>
+          <b>Your host.</b>
+          <br />
+          —Taz Singh.
+        </li>
+
+        <li>+ Special Guests.</li>
       </ul>
     </TextLayout>
   </HeroLayout>
