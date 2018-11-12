@@ -21,7 +21,7 @@ const query = graphql`
         siteUrl
       }
     }
-    banner: file(relativePath: { eq: "november-2018/poster.jpg" }) {
+    banner: file(relativePath: { eq: "november-2018/poster-charlie.jpg" }) {
       childImageSharp {
         fixed(width: 1120) {
           src
@@ -104,7 +104,9 @@ const Seo = ({ title }) => (
 
         <meta
           property="og:image"
-          content={`${data.site.siteMetadata.siteUrl}${data.banner.childImageSharp.fixed.src}`}
+          content={`${data.site.siteMetadata.siteUrl}${
+            data.banner.childImageSharp.fixed.src
+          }`}
         />
 
         {files.map(({ name, size }) => (
