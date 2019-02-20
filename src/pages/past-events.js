@@ -46,15 +46,14 @@ const PastEventsPage = () => (
             return (
               <Fragment>
                 <PastEvent
-                  title="06 April 2018"
-                  location="Ticketmaster UK"
-                  data={data.aprilImages}
-                />
-
-                <PastEvent
                   title="30 November 2018"
                   location="React Day Berlin"
                   data={data.novemberImages}
+                />
+                <PastEvent
+                  title="06 April 2018"
+                  location="Ticketmaster UK"
+                  data={data.aprilImages}
                 />
               </Fragment>
             );

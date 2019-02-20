@@ -21,7 +21,7 @@ const query = graphql`
         siteUrl
       }
     }
-    banner: file(relativePath: { eq: "november-2018/poster-charlie.jpg" }) {
+    banner: file(relativePath: { eq: "april-2018/001.jpg" }) {
       childImageSharp {
         fixed(width: 1120) {
           src
