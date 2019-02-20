@@ -26,7 +26,7 @@ const Content = styled.div`
   width: 45%;
 
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   letter-spacing: 0.08rem;
   border-bottom: 1px solid #e0d6eb;
 

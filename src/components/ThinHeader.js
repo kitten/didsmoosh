@@ -81,7 +81,7 @@ const After = styled.div`
 const HeroLayout = ({ children }) => (
   <Container>
     <Fixed className={gradient}>
-      <Info>Component Did Smoosh</Info>
+      <Info>Smoosh</Info>
     </Fixed>
     <NavWrapper>
       <NavContent />

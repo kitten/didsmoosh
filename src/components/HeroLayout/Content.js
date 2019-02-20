@@ -5,12 +5,12 @@ import { Spacer } from './common';
 
 const Wrapper = styled.div`
   flex-grow: 1;
-  padding: 3rem;
+  padding: 3rem 3rem 0 3rem;
   background: #fff;
 
   @media (max-width: 768px) {
     border-bottom: 1px solid #e0d6eb;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
   }
 `;
 
@@ -40,15 +40,20 @@ const Description = styled.p`
 const Content = () => (
   <Wrapper>
     <Info>
-      30 November
+      08 March
       <br />
-      React Day Berlin
+      Ticketmaster, London
     </Info>
     <Spacer />
     <Description>
-      <b>componentDidSmoosh</b> is a comedy night for JavaScript nerds. We bring
-      together Europe’s greatest experts of developer humour on stage to make
-      you laugh and cry. This is not a party you’ll want to miss.
+      After a sold-out show in Berlin, <b>SMOOSH</b> is back at Ticketmaster in
+      London with our next iteration of a JavaScript comedy night, bringing some
+      of the greatest experts of developer humour on stage to make you laugh and
+      cry.
+    </Description>
+    <Description>
+      It's a meetup. It's a standup. It's a musical. It's a play. You can even
+      get on stage and battle in an epic game of BattleDecks.
     </Description>
   </Wrapper>
 );
