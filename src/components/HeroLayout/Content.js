@@ -2,6 +2,7 @@ import React from 'react';
 import { styled } from 'linaria/react';
 
 import { Spacer } from './common';
+import Button from '../Button';
 
 const Wrapper = styled.div`
   flex-grow: 1;
@@ -55,6 +56,9 @@ const Content = () => (
       It's a meetup. It's a standup. It's a musical. It's a play. You can even
       get on stage and battle in an epic game of BattleDecks.
     </Description>
+    <Button href="https://www.meetup.com/formidable-london/events/259132548/">
+      RSVP
+    </Button>
   </Wrapper>
 );
 

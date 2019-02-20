@@ -4,6 +4,7 @@ import Seo from '../components/Seo';
 import HeroLayout from '../components/HeroLayout';
 import TextLayout from '../components/TextLayout';
 import ImageLayout from '../components/ImageLayout';
+import Button from '../components/Button';
 
 const IndexPage = () => (
   <HeroLayout>
@@ -77,6 +78,9 @@ const IndexPage = () => (
           </p>
         </li>
       </ul>
+      <Button href="https://www.meetup.com/formidable-london/events/259132548/">
+        RSVP
+      </Button>
     </TextLayout>
   </HeroLayout>
 );
