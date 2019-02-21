@@ -21,7 +21,7 @@ const query = graphql`
         siteUrl
       }
     }
-    banner: file(relativePath: { eq: "november-2018/poster-charlie.jpg" }) {
+    banner: file(relativePath: { eq: "april-2018/001.jpg" }) {
       childImageSharp {
         fixed(width: 1120) {
           src
@@ -66,9 +66,8 @@ const query = graphql`
 `;
 
 const description =
-  'componentDidSmoosh is a comedy night for JavaScript nerds. We bring ' +
-  'together Europe’s greatest experts of developer humour on stage to make' +
-  'you laugh and cry. This is not a party you’ll want to miss.';
+  `It's a meetup. It's a standup. It's a musical. It's a play. ` +
+  `You can even get on stage and battle in an epic game of BattleDecks.`;
 
 const Seo = ({ title }) => (
   <StaticQuery
@@ -79,7 +78,7 @@ const Seo = ({ title }) => (
 
         <title>
           {title ? `${title} — ` : ''}
-          {'componentDidSmoosh'}
+          {'useSmoosh'}
         </title>
 
         <meta name="application-name" content="smoosh.fun" />
@@ -90,17 +89,17 @@ const Seo = ({ title }) => (
 
         <meta
           property="og:title"
-          content="componentDidSmoosh — A JavaScript comedy night"
+          content="useSmoosh — A JavaScript comedy night"
         />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="event" />
         <meta property="og:url" content="https://smoosh.fun" />
-        <meta property="og:fn" content="React Day Berlin" />
-        <meta property="og:street-address" content="Karl-Marx-Allee 131A" />
-        <meta property="og:locality" content="Berlin" />
-        <meta property="og:postal-code" content="10243" />
-        <meta property="og:country-name" content="DE" />
-        <meta property="og:start-time" content="2010-11-30T18:00" />
+        <meta property="og:fn" content="Ticketmaster London" />
+        <meta property="og:street-address" content="4 Pentonville Rd" />
+        <meta property="og:locality" content="London" />
+        <meta property="og:postal-code" content="N1 9HF" />
+        <meta property="og:country-name" content="UK" />
+        <meta property="og:start-time" content="2019-03-08T19:00" />
 
         <meta
           property="og:image"

@@ -56,18 +56,19 @@ const SideContent = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 800;
   text-transform: uppercase;
-  line-height: 1.06em;
-  letter-spacing: 0.155em;
+  line-height: 1.26em;
+  letter-spacing: 0.1em;
 `;
 
 const Subtitle = styled.h2`
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.333em;
-  line-height: 2.5em;
+  line-height: 1.5em;
+  margin-top: 1em;
   letter-spacing: 0.044em;
 `;
 
@@ -85,15 +86,13 @@ const FixedBackground = () => (
     <MouseMove>
       {vec => (
         <SideContent style={contentTransform(vec)}>
-          <Title>
-            Component
-            <br />
-            Did
-            <br />
-            Smoosh
-          </Title>
+          <Title>Smoosh</Title>
           <Spacer />
-          <Subtitle>What have they done now</Subtitle>
+          <Subtitle>
+            This night will be unforgettable,
+            <br />
+            no matter how hard you'll try to forget it.
+          </Subtitle>
         </SideContent>
       )}
     </MouseMove>

@@ -31,6 +31,10 @@ const Wrapper = styled.div`
     text-transform: uppercase;
   }
 
+  p {
+    margin: 2.45rem 0;
+  }
+
   ul {
     list-style: none;
 
@@ -40,11 +44,19 @@ const Wrapper = styled.div`
       @media (max-width: 768px) {
         margin: 1.75rem 0;
       }
-    }
-  }
 
-  p {
-    margin: 2.45rem 0;
+      p {
+        font-size: 0.8em;
+        font-weight: 400;
+        letter-spacing: 0.08rem;
+        margin: 1rem 0 3rem 0;
+
+        @media (max-width: 768px) {
+          font-size: 1.2rem;
+          letter-spacing: 0.04rem;
+        }
+      }
+    }
   }
 `;
 
