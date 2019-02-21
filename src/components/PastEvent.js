@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { styled } from 'linaria/react';
 
-import { Spacer } from '../components/HeroLayout/common';
+import { BlackSpacer } from '../components/HeroLayout/common';
 
 const ImageGrid = styled.div`
   display: flex;
@@ -66,7 +66,7 @@ export default ({ title, location, data }) => {
         {title}
         <br />
         {location}
-        <Spacer />
+        <BlackSpacer />
       </Info>
       <ImageGrid>
         {data.edges.map(({ node }, i) => (
