@@ -36,11 +36,11 @@ const IndexPage = () => (
         <li>
           <b>Hallelujah</b>
           <br />
-          —Postal Service Workers.
+          —The Postal Service Workers.
           <p>
-            The shitposting supergroup Postal Service Workers formed by Sophie
-            Koonin and Sunil Pai will play songs about JavaScript that will
-            render you to tears. Sing along!
+            The shitposting supergroup formed by Sophie Koonin and Sunil Pai
+            will play songs about JavaScript that will render you to tears. Sing
+            along!
           </p>
         </li>
 
@@ -68,9 +68,9 @@ const IndexPage = () => (
         </li>
 
         <li>
-          <b>Sean Larkin Meltdown Watch.</b>
+          <b>Your host.</b>
           <br />
-          —Your host, Jani Eväkallio
+          —Jani Eväkallio.
           <p>
             Do you ever look at the shitshow that is dev twitter and wonder,
             what's all this fuss about? Jani is here to guide you through the
