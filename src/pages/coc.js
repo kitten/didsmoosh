@@ -12,9 +12,9 @@ const CocPage = () => (
       <TextLayout.Heading>Code of Conduct</TextLayout.Heading>
 
       <p>
-        All guests, speakers, and volunteers at the componentDidSmoosh events
-        are required to agree with the following code of conduct. Organizers
-        will enforce this code throughout the events.
+        All guests, speakers, and volunteers at the Smoosh events are required
+        to agree with the following code of conduct. Organizers will enforce
+        this code throughout the events.
       </p>
       <p>
         Because this is a comedy event, the tone and content of the
@@ -28,10 +28,10 @@ const CocPage = () => (
       <h4>The Quick Version</h4>
 
       <p>
-        componentDidSmoosh is dedicated to providing a harassment-free
-        experience for everyone, regardless of gender, gender identity and
-        expression, age, sexual orientation, disability, physical appearance,
-        body size, race, ethnicity, or religion (or lack thereof).
+        Smoosh is dedicated to providing a harassment-free experience for
+        everyone, regardless of gender, gender identity and expression, age,
+        sexual orientation, disability, physical appearance, body size, race,
+        ethnicity, or religion (or lack thereof).
       </p>
 
       <p>
