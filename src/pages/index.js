@@ -50,7 +50,7 @@ const IndexPage = () => (
           <br />
           —The Postal Service Workers.
           <p>
-            The shitposting supergroup formed by Sophie Koonin and Sunil Pai
+            The shitposting supergroup formed by Sophie Koonin and Guillermo Orellana
             will play songs about JavaScript that will render you to tears. Sing
             along!
           </p>
