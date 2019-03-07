@@ -57,6 +57,9 @@ export const NavContent = () => (
       <NavLink to="/">Upcoming</NavLink>
     </Item>
     <Item>
+      <NavLink to="/donate">Donate</NavLink>
+    </Item>
+    <Item>
       <NavLink to="/past-events">Past Events</NavLink>
     </Item>
     <Item>

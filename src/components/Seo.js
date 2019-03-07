@@ -69,7 +69,7 @@ const description =
   `It's a meetup. It's a standup. It's a musical. It's a play. ` +
   `You can even get on stage and battle in an epic game of BattleDecks.`;
 
-const Seo = ({ title }) => (
+const Seo = ({ title, children = null }) => (
   <StaticQuery
     query={query}
     render={data => (
@@ -116,6 +116,8 @@ const Seo = ({ title }) => (
             href={data.favicon.childImageSharp[name].src}
           />
         ))}
+
+        {children}
       </Helmet>
     )}
   />
