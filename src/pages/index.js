@@ -34,6 +34,18 @@ const IndexPage = () => (
         </li>
 
         <li>
+          <b>Creative Coding & Music.</b>
+          <br />
+          —Sam Wray.
+          <p>
+            The one and only Sam is back to perform at Smoosh and is drawing you
+            into the unique world of lo-fi sound using tools like the beloved
+            Nintendo Game Boy, while we take a short break from this show's
+            relentless humour.
+          </p>
+        </li>
+
+        <li>
           <b>Hallelujah</b>
           <br />
           —The Postal Service Workers.
